@@ -5266,7 +5266,11 @@ nav {
     color: #fff; }
   nav .nav-wrapper {
     position: relative;
+<<<<<<< HEAD
+    height: 100%; }
+=======
     height:   100%; }
+>>>>>>> f22f34209d73879c3dc142c553558de5abe4bada
     nav .nav-wrapper i {
       display: block;
       font-size: 2rem; }
@@ -5577,11 +5581,19 @@ small {
       left: 0;
       right: 0; }
   .card.small {
+<<<<<<< HEAD
+    height: 200px; }
+    .card.small .card-image {
+      height: 100px; }
+    .card.small .card-content {
+      height: 100px; }
+=======
     height: 300px; }
     .card.small .card-image {
       height: 150px; }
     .card.small .card-content {
       height: 150px; }
+>>>>>>> f22f34209d73879c3dc142c553558de5abe4bada
   .card.medium {
     height: 400px; }
     .card.medium .card-image {
@@ -5637,7 +5649,11 @@ small {
     position: absolute;
     background-color: #fff;
     width: 100%;
+<<<<<<< HEAD
+    overflow-y:hidden;
+=======
     overflow-y: auto;
+>>>>>>> f22f34209d73879c3dc142c553558de5abe4bada
     top: 100%;
     height: 100%;
     z-index: 1;
