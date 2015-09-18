@@ -8,6 +8,12 @@ $("docment").ready(function() {
         var c = $("#card-tmp").clone(true);
         $("#bg-overlay").fadeOut();
         $("#card-tmp").fadeOut();
+        var input=c.find('input');
+        input.after(c.find('input').val());
+        input.remove();
+        var textarea=c.find('Textarea');
+        textarea.after(c.find('Textarea').val());
+        textarea.remove();
         c.addClass("col");
         c.addClass("s3");
         c.removeAttr("id");
@@ -15,4 +21,8 @@ $("docment").ready(function() {
       }
     }
   });
+  $("#bg-overlay").on("click",function(){
+    $("#bg-overlay").fadeOut();
+    $("#card-tmp").fadeOut();
+  })
 });

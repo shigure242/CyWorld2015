@@ -1,9 +1,24 @@
+.content-body{
+  min-height:600px;
+  margin-bottom: 0px;
+}
 .card-text{
   font-size: 14px;
   font-weight: 300;
 }
+.activator-icon{
+
+}
 #cardadd{
-  z-index: 101;
+  z-index: 103;
+}
+#card-tmp-tille{
+  height: 100%;
+  width: 80%;
+}
+#card-tmp-detail{
+  height: 100%
+  width: 80%;
 }
 #card-tmp{
   display: none;
@@ -12,7 +27,7 @@
   left: 30%;
   height: 60%;
   width: 40%;
-  z-index: 101;
+  z-index: 102;
 }
 #bg-overlay{
     background-color:rgba(0, 0, 0, 0.65);
