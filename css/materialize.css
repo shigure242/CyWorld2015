@@ -5641,10 +5641,14 @@ small {
     top: 100%;
     height: 100%;
     z-index: 1;
-    display: none; }
+    display:none; }
     .card .card-reveal .card-title {
       cursor: pointer;
       display: block; }
+
+      .card .card-reveal .card-title {
+        cursor: pointer;
+        display: block; }
 
 #toast-container {
   display: block;
