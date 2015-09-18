@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 /*!
  * Materialize v0.97.1 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-=======
-
-/*!
- * Materialize v0.97.1 (http://materializecss.com)
- * Copyright 2014-2015 Materialize
- * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
- */
->>>>>>> f22f34209d73879c3dc142c553558de5abe4bada
 /*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
@@ -1847,11 +1838,7 @@ $(document).ready(function(){
         }
         else {
           // Insert as text;
-<<<<<<< HEAD
-          toast.innerHTML = html; 
-=======
           toast.innerHTML = html;
->>>>>>> f22f34209d73879c3dc142c553558de5abe4bada
         }
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
@@ -2160,11 +2147,6 @@ $(document).ready(function(){
               $('body').css('overflow', 'hidden');
               // Push current drag target on top of DOM tree
               $('body').append(dragTarget);
-<<<<<<< HEAD
-              
-=======
-
->>>>>>> f22f34209d73879c3dc142c553558de5abe4bada
               if (options.edge === 'left') {
                 dragTarget.css({width: '50%', right: 0, left: ''});
                 menu_id.velocity({left: 0}, {duration: 300, queue: false, easing: 'easeOutQuad'});
@@ -2403,17 +2385,8 @@ $(document).ready(function(){
 		  $('a[href=#' + $(element).attr('id') + ']').click(function(e) {
 		    e.preventDefault();
 		    var offset = $(this.hash).offset().top + 1;
-
 //          offset - 200 allows elements near bottom of page to scroll
-<<<<<<< HEAD
-			
 	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-			
-=======
-
-	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-
->>>>>>> f22f34209d73879c3dc142c553558de5abe4bada
 		  });
 		});
 		options = options || {
