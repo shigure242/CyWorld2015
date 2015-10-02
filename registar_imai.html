@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -14,52 +14,68 @@
   <title>新規ログイン画面</title>
 </head>
 
-<body class="grey lighten-4">
+<body>
   <nav>
     <div class="nav-wrapper white" style="border-bottom:solid 3px; border-color:gray;">
       <a href="index.html" class="brand-logo left" style="margin-left:50px">
         <span style="color:blue;font-weight:bold">Cy</span>
         <span style="color:grey;font-weight:bold">-World</span>
       </a>
+      <!--
+          <ul class="right side-nav" id="nav-mobile">
+           <li><a href="">Sass</a></li>
+           <li><a href="">Components</a></li>
+           <li><a href="">JavaScript</a></li>
+         </ul>
+         <a class="button-collapse" href="#" data-activates='nav-mobile'>
+          <i class ="mdi-navigation-menu"></i>
+         </a>
+  - -->
+
       <ul id="nav-mobile" class="right" style="margin-right:20px">
-        <li><a href="registar.html" class="grey-text text-darken-2">Registar</a></li>
-        <li><a href="login.html" class="grey-text text-darken-2">Login</a></li>
+        <li><a href="registar.html" class="grey-text text-darken-2">Login</a></li>
+        <li><a href="registar.html" class="grey-text text-darken-2">Sign Up</a></li>
       </ul>
     </div>
   </nav>
-  <div class="contents">
 
-    <!-- Input forms -->
-    <form action="index.html" method="get" class="z-depth-3" style="margin:50px 100px;padding-top:10px;background:white;">
-<h4 style="margin-left:90px">Registar</h4>
-<div style="margin:10px 90px" >
-<!--User Name  -->
-<div class="input-field col s12">
-  <input id="roomName" type="text" class="validate">
-  <label for="text">UserName</label>
-</div>
-<!-- Email addless -->
-<div class="input-field col s12">
-  <input id="roomName" type="email" class="validate">
-  <label for="email">Email Address</label>
-</div>
-<!-- Passwd -->
-<div class="input-field col s12">
-  <input id="roomName" type="text" class="validate">
-  <label for="text">Password</label>
-</div>
-<!-- RePasswd -->
-<div class="input-field col s12">
-  <input id="roomName" type="text" class="validate">
-  <label for="text">Conpirm your Password</label>
-</div>
-</div>
-	<a href="storming.html" class="waves-effect waves-light btn-large" style="margin:10px 0 20px 220px;"><i class="material-icons left">room</i>Create</a>
+  <h1>Create Your account</h1>
+  <br />
+  <form>
 
-    </form>
-  </div>
+      Username
 
-  <!-- fotter -->
+    <p>
+      <input type="text" name="username" size="50" />
+    </p>
+  </form>
+  <form>
+    <p>
+      Email Address
+    </p>
+    <p>
+      <input type="email" name="username" size="50" />
+    </p>
+  </form>
+  <form>
+    <p>
+      Password
+    </p>
+    <p>
+      <input type="password" name="username" size="50" />
+    </p>
+  </form>
+  <form>
+    <p>
+      Conpirm your Password
+    </p>
+    <p>
+      <input type="password" name="username" size="50" />
+    </p>
+  </form>
+  <p>
+    <button type="submit" name="create" value="submit">Create</button>
+  </p>
   <footer class="page-footer blue-grey darken-4">
     <div class="container">
       <div class="row">
