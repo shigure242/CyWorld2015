@@ -18,79 +18,75 @@
 </head>
 
 <body class="grey lighten-4">
+	<!-- Gnav -->
 	<nav>
-    <div class="nav-wrapper white" style="border-bottom:solid 3px; border-color:gray;">
-      <a href="index.html" class="brand-logo left" style="margin-left:50px">
-        <span style="color:blue;font-weight:bold">Cy</span>
-        <span style="color:grey;font-weight:bold">-World</span>
-      </a>
-      <!--
-          <ul class="right side-nav" id="nav-mobile">
-           <li><a href="">Sass</a></li>
-           <li><a href="">Components</a></li>
-           <li><a href="">JavaScript</a></li>
-         </ul>
-         <a class="button-collapse" href="#" data-activates='nav-mobile'>
-          <i class ="mdi-navigation-menu"></i>
-         </a>
-- -->
-
-      <ul id="nav-mobile" class="right" style="margin-right:20px">
-        <li><a href="Login.html" class="grey-text text-darken-2">Login</a></li>
-        <li><a href="Register.html" class="grey-text text-darken-2">Sign Up</a></li>
-      </ul>
-    </div>
-  </nav>
-	
-
-	<div class="contents">
-		<h2>CreateRoom</h2>
-			<a class="waves-effect waves-light btn-large" style="margin-left:300px;margin-bottom:20px;"><i class="material-icons left">room</i>Create</a>
-		<div class="row z-depth-3">
-			<!--contents value-->
-
-			<div class="input-field col s12">
-				<input id="roomName" type="text" class="validate">
-				<label for="text">RoomName</label>
-			</div>
-
-			<div class="input-field col s12">
-				<textarea id="textarea1" class="materialize-textarea"></textarea>
-				<label for="textarea1">Coment</label>
-			</div>
-			<a class="btn-floating btn-samll waves-effect waves-light red"><i class="material-icons">add</i></a>
-			<div class="chip">
-				<img src="img/hoge.jpg" alt="Contact Person"> Jane Doe
-			</div>
-
+		<div class="nav-wrapper white" style="border-bottom:solid 3px; border-color:gray;">
+			<a href="index.html" class="brand-logo left" style="margin-left:50px">
+				<span style="color:blue;font-weight:bold">Cy</span>
+				<span style="color:grey;font-weight:bold">-World</span>
+			</a>
+			<ul id="nav-mobile" class="right" style="margin-right:20px">
+				<li><a href="registar.html" class="grey-text text-darken-2">Registar</a></li>
+				<li><a href="login.html" class="grey-text text-darken-2">Login</a></li>
+			</ul>
 		</div>
-		<!--card end-->
+	</nav>
+
+	<!-- Contents -->
+	<div class="contents">
+		<!-- Input forms -->
+		<form action="index.html" method="get" class="z-depth-3" style="margin:50px 100px;padding-top:10px;background:white;">
+			<h4 style="margin-left:90px">Create Room</h4>
+			<!--User Name  -->
+			<div style="margin:10px 90px">
+				<div class="input-field col s12">
+					<input id="roomName" type="text" class="validate">
+					<label for="text">Room Name</label>
+				</div>
+				<!-- Email addless -->
+				<div class="input-field col s12">
+					<textarea id="roomName" type="text" class="materialize-textarea"></textarea>
+					<label for="textarea1">Comment</label>
+				</div>
+				Add Users<br />
+				<a class="btn-floating btn-samll waves-effect waves-light red"><i class="material-icons">add</i></a>
+				<div class="chip">
+					<img src="img/hoge.jpg" alt="Contact Person"> Jane Doe
+				</div>
+			</div>
+
+			<a href="storming.html" class="waves-effect waves-light btn-large" style="margin:10px 0 20px 220px;"><i class="material-icons left">room</i>Create</a>
+
+		</form>
+
+
 	</div>
 
+	<!-- footer-->
 	<footer class="page-footer blue-grey darken-4">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Help</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul class="">
-            <li><a class="waves-effect waves-light btn" style="margin:5px"><i class="material-icons left">input</i>Twitter</a></li>
-            <li><a class="waves-effect waves-light btn" style="margin:5px"><i class="material-icons left">input</i>GitHub</a></li>
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Help</h5>
+					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Connect</h5>
+					<ul class="">
+						<li><a class="waves-effect waves-light btn" style="margin:5px"><i class="material-icons left">input</i>Twitter</a></li>
+						<li><a class="waves-effect waves-light btn" style="margin:5px"><i class="material-icons left">input</i>GitHub</a></li>
 
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2014 Copyright Cy-World
-        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-      </div>
-    </div>
-  </footer>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2014 Copyright Cy-World
+				<!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+			</div>
+		</div>
+	</footer>
 
 </body>
 

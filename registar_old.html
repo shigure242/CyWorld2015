@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta charset="utf-8">
-  <!--Import Google Icon Font-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/top.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -11,55 +11,52 @@
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <title>gitTEst</title>
+  <title>新規ログイン画面</title>
 </head>
 
 <body class="grey lighten-4">
-
   <nav>
     <div class="nav-wrapper white" style="border-bottom:solid 3px; border-color:gray;">
       <a href="index.html" class="brand-logo left" style="margin-left:50px">
         <span style="color:blue;font-weight:bold">Cy</span>
         <span style="color:grey;font-weight:bold">-World</span>
       </a>
-      <!--
-          <ul class="right side-nav" id="nav-mobile">
-           <li><a href="">Sass</a></li>
-           <li><a href="">Components</a></li>
-           <li><a href="">JavaScript</a></li>
-         </ul>
-         <a class="button-collapse" href="#" data-activates='nav-mobile'>
-          <i class ="mdi-navigation-menu"></i>
-         </a>
-- -->
-
       <ul id="nav-mobile" class="right" style="margin-right:20px">
         <li><a href="registar.html" class="grey-text text-darken-2">Registar</a></li>
         <li><a href="login.html" class="grey-text text-darken-2">Login</a></li>
       </ul>
     </div>
   </nav>
-  <img src="img/brain3.jpg" style="width:100%; height:400px; " alt="" />
+  <div class="contents">
+    <h3>Create Your account</h3>
+    <!-- Input forms -->
+    <form action="index.html" method="get" class="z-depth-3" style="padding-top:20px;background:white">
+      <!--User Name  -->
+      <div class="input-field col s12">
+        <input id="roomName" type="text" class="validate">
+        <label for="text">UserName</label>
+      </div>
+      <!-- Email addless -->
+      <div class="input-field col s12">
+        <input id="roomName" type="text" class="validate">
+        <label for="text">Email Address</label>
+      </div>
+      <!-- Passwd -->
+      <div class="input-field col s12">
+        <input id="roomName" type="text" class="validate">
+        <label for="text">Password</label>
+      </div>
+      <!-- RePasswd -->
+      <div class="input-field col s12">
+        <input id="roomName" type="text" class="validate">
+        <label for="text">Conpirm your Password</label>
+      </div>
+	<a href="storming.html" class="waves-effect waves-light btn-large" style="margin:10px 0 20px 300px;"><i class="material-icons left">room</i>Create</a>
 
-
-
-  <div class="contents row">
-    <h3>あなたの想像力を世界中に膨らませましょう！</h3>
-
-    <p>Footers are a great way to organize a lot of site navigation and information at the end of a page. This is where the user will look once hes finished scrolling through the current page or is looking for additional information about your website. Introduction
-      Note: We use flexbox to structure our html so that the footer is always on the bottom of the page. It is important to keep the structure of your page within the 3 HTML5 tags: Footer Content You can use rows and columns here to organize your footer
-      content.
-    </p>
-
-
-    <h2>Let's Brain Storming!!</h2>
-    <a href="#" class="col m3 waves-effect waves-light btn-large topButton z-depth-2"><i class="material-icons left">cloud</i>Global Room</a>
-    <a href="createRoom.html" class="col m3 waves-effect waves-light btn-large topButton z-depth-2"><i class="material-icons left">settings</i>Create Room</a>
-    <a href="storming.html" class="col m3 waves-effect waves-light btn-large topButton z-depth-2"><i class="material-icons left">input</i>Entering Room</a>
-
-
+    </form>
   </div>
 
+  <!-- fotter -->
   <footer class="page-footer blue-grey darken-4">
     <div class="container">
       <div class="row">
@@ -84,7 +81,6 @@
       </div>
     </div>
   </footer>
-
 
 
 </body>
